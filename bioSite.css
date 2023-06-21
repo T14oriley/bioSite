@@ -38,20 +38,19 @@ body {
     grid-row-start: 1;
     grid-row-end: 1;
 }
-p.4 {
+.dndText {
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 2;
     grid-row-end: 2;
-
 }
-p.5 {
+p.pokemonText {
     grid-column-start: 2;
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 2;
 }
-p.6 {
+p.filmText {
     grid-column-start: 3;
     grid-column-end: 3;
     grid-row-start: 2;
@@ -79,20 +78,20 @@ p.6 {
     grid-row-start: 1;
     grid-row-end: 1;
 }
-p.1 {
+p.gotgText {
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 2;
     grid-row-end: 2;
 
 }
-p.2 {
+p.spideyText {
     grid-column-start: 2;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 1;
 }
-p.3 {
+p.ttwText {
     grid-column-start: 3;
     grid-column-end: 3;
     grid-row-start: 2;
@@ -111,7 +110,7 @@ p.3 {
     grid-column-start: 1;
     grid-column-end: 1;
 }
-p.0 {
+p.gentryText {
     grid-column-start: 2;
     grid-column-end: 2;
 }
