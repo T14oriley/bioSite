@@ -1,0 +1,117 @@
+/* -- CSD340 Assignment bioSite, Tyler O'Riley, 06/20/2023  -- */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+#image-text-gallery {
+    margin-top: 10%;
+}
+
+/* -- Universal Grid Setup  -- */
+
+.facts-entries {
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    grid-template-rows: 500px 500px;
+    justify-content: space-evenly;
+}
+
+/* -- Hobbies Grid  -- */
+.dnd {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+
+}
+.pokemon {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+.film {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+p.4 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+
+}
+p.5 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+p.6 {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+/* -- About Grid  -- */
+
+.gotg {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+
+}
+.spidey {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+.ttw {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+p.1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+
+}
+p.2 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+p.3 {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+/* -- Index Page Grid Setup  -- */
+
+.gentry-entries {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: auto auto;
+    justify-content: space-evenly;
+}
+.gentry {
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+p.0 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
