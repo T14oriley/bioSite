@@ -6,7 +6,7 @@ body {
 }
 
 #image-text-gallery {
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 /* -- Universal Grid Setup  -- */
@@ -14,7 +14,7 @@ body {
 .facts-entries {
     display: grid;
     grid-template-columns: 500px 500px 500px;
-    grid-template-rows: 500px 500px;
+    grid-template-rows: 500px 500px 500px;
     justify-content: space-evenly;
 }
 
@@ -42,19 +42,19 @@ body {
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 2;
-    grid-row-end: 2;
+    grid-row-end: 3;
 }
 p.pokemonText {
     grid-column-start: 2;
     grid-column-end: 2;
     grid-row-start: 2;
-    grid-row-end: 2;
+    grid-row-end: 3;
 }
 p.filmText {
     grid-column-start: 3;
     grid-column-end: 3;
     grid-row-start: 2;
-    grid-row-end: 2;
+    grid-row-end: 3;
 }
 
 /* -- About Grid  -- */
@@ -113,4 +113,5 @@ p.ttwText {
 p.gentryText {
     grid-column-start: 2;
     grid-column-end: 2;
+    align-items: start;
 }
