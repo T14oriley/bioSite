@@ -4,7 +4,40 @@ body {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
+header {
+    background-color: #335c67;
+    font-size: 30px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 
+/* -- Universal Navbar  -- */
+
+#navbar {
+    overflow: hidden;
+    background-color: #fff3b0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+
+}
+#navbar a {
+    display: block;
+    color: #38302E;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#navbar a:hover {
+    background-color: #9DBBAE;
+    color: #fff;
+}
 #image-text-gallery {
     margin-top: 5%;
 }
@@ -19,6 +52,7 @@ body {
 }
 
 /* -- Hobbies Grid  -- */
+
 .dnd {
     grid-column-start: 1;
     grid-column-end: 1;
@@ -110,8 +144,31 @@ p.ttwText {
     grid-column-start: 1;
     grid-column-end: 1;
 }
-p.gentryText {
+.gentryText {
     grid-column-start: 2;
     grid-column-end: 2;
     align-items: start;
 }
+
+/* -- Universal Footer  -- */
+
+footer {
+    display: block;
+    background-color: #fff3b0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+footer a {
+    display: block;
+    color: #38302E;
+    text-align: center;
+    text-decoration: none;
+}
+footer a:hover {
+    background-color: #9DBBAE;
+    color: #fff;
+}
+
+
